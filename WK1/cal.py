@@ -1,4 +1,4 @@
-#get input from the user
+#get input from the user!
 number1 = float(input("Enter number1: "))
 number2 = float(input("Enter number2: ")) 
 operation = input("Enter operation (+,_,*,/,%,//,**): ")
