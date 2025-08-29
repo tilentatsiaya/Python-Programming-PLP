@@ -110,7 +110,7 @@ print(iphone.charge(20))
 print(iphone.power_off())
 print()
 
-# Create a gaming phone
+# Create a gaming phone!
 gaming_phone = GamingPhone("ASUS", "ROG Phone 6", 256, 6000, "Adreno 730", 165, True)
 print(gaming_phone)
 print(gaming_phone.power_on())
