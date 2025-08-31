@@ -9,7 +9,7 @@ def calculate_discount(price, discount_percent):
     if discount_percent >= 20:
         # Calculate the discount amount
         discount_amount = price * (discount_percent / 100)
-        # Calculate the final price by subtracting the discount
+        # Calculate the final price by subtracting the discount.
         final_price = price - discount_amount
         # Return the discounted price
         return final_price
