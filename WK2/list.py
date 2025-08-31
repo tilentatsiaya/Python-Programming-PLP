@@ -11,7 +11,7 @@ my_list.append(50)
 # Insert 15 at the second position (index 1)
 my_list.insert(1, 15)
 
-# Extend with another list
+# Extend with another list!
 my_list.extend([50, 60, 70])
 
 # Remove the last element
