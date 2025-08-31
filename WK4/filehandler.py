@@ -5,7 +5,7 @@ file_out.write(content_out)
 file_out.write("This is a second line.\n")
 file_out.close()
 
-# Now, let's read the content from the file
+# Now, let's read the content from the file.
 file_in = open('newFile.pdf', 'r')
 content_in = file_in.read()
 print("Content read from the file:")
@@ -23,5 +23,5 @@ except FileNotFoundError:
     print(f"Error: The file '{output_file}' was not found.")
     print("Please make sure the file exists and try again.")
 except Exception as e:
-    # This is a general error handler for any other unexpected issues.
+    # This is a general error handler for any other unexpected issues
     print(f"An unexpected error occurred: {e}")
